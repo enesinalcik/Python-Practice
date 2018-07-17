@@ -4,7 +4,7 @@ def even_list(l):
 	
 	even_lis = []
 	for i in range(0,len(l)):
-		if l[i] % 2 == 1 :
+		if l[i] % 2 == 0 :
 			even_lis.append(l[i]) 
 	return even_lis
 
